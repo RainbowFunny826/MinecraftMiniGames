@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:barrier"
+      },
+      "title":{
+        "translate": "cheater"
+      },
+      "description": {
+        "translate": "cheater"
+      },
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "criteria": {
+      "attack": {
+        "trigger": "minecraft:levitation"
+      }
+    },
+    "rewards": {
+      "function": "hp:dead"
+    }
+}
